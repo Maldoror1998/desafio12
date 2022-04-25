@@ -51,11 +51,25 @@ section.normal {
 section.imagem {
     background-color: rgba(0, 0, 0, 0.247);
     color: white;
+    background-size: cover;
+    background-attachment: fixed; /*efeito paralaxe aqui*/
+}
+
+section#img01 {
+    background-image: url('../desafio12/pacote-d012/imagens/background001.jpg');
+    background-position: right center;
+
+}
+
+section#img02 {
+    background-image: url('../desafio12/pacote-d012/imagens/background002.jpg');
+    box-shadow: inset 6px 6px 13px 0px black; /* inset = sombra pra dentro*/
 }
 
 section.imagem > p {
     width: 400px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.356);
+    text-shadow: 2px 2px 1px black;
 }
 
 footer {
